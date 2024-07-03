@@ -1,0 +1,82 @@
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, #7ae9ef, #ffb6c1); /* pink to peach gradient */
+}
+
+header {
+    background-color: #0097a7; /* teal blue */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffd7; /* light yellow */
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* add some depth */
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    color: #660066; /* deep purple */
+}
+
+.info, .facts, .nutrition {
+    margin-bottom: 20px;
+    background-color: #f7f7f7; /* light gray */
+    padding: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black; /* lime green */
+    color: white;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.logo {
+    font-size: 1.5em;
+    color: #ff9800; /* orange */
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 5px 0;
+    color: #4caf50; /* green */
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* light gray border */
+}
+
+.contact-form input[type="submit"] {
+    background-color: #2196f3; /* blue */
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.contact-form input[type="submit"]:hover {
+    background-color: #1976d2; /* darker blue */
+}
